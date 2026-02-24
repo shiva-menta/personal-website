@@ -15,7 +15,7 @@ const config: Config = {
             colors: {
                 background: "var(--background)",
                 foreground: "var(--foreground)",
-                primary: "#6366f1", // Indigo-500
+                primary: "#0ea5e9", // Sky-500 (sea blue)
             },
         },
     },

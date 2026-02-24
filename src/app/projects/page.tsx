@@ -22,16 +22,23 @@ export default function Projects() {
     return (
         <div>
             <h1 className="text-3xl font-bold mb-8">Projects</h1>
-            <div className="space-y-8">
+            <div className="grid gap-6">
                 {projects.map((project, index) => (
-                    <div key={index} className="border-b border-gray-100 pb-8 last:border-0">
-                        <h2 className="text-xl font-semibold mb-2">
-                            <a href={project.link} target="_blank" rel="noopener noreferrer" className="hover:underline">
-                                {project.title}
-                            </a>
-                        </h2>
+                    <a
+                        key={index}
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group block rounded-lg border border-gray-100 p-6 transition hover:shadow-md hover:-translate-y-0.5"
+                    >
+                        <div className="flex items-center justify-between mb-2">
+                            <h2 className="text-xl font-semibold">{project.title}</h2>
+                            <span className="text-gray-400 transition-transform group-hover:translate-x-1">
+                                →
+                            </span>
+                        </div>
                         <p className="text-gray-700 leading-relaxed">{project.description}</p>
-                    </div>
+                    </a>
                 ))}
             </div>
         </div>
