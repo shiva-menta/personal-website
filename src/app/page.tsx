@@ -29,7 +29,7 @@ export default function Home() {
         <h2 className="text-2xl font-serif font-semibold mb-4">About Me</h2>
         <p className="text-gray-700 leading-relaxed mb-4">
           Outside of work, I enjoy reading tech articles — check out my <a href="https://raindrop.io/shiva-123-menta/public-67350613" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-900">Raindrop collection</a> for
-          things I&apos;ve found interesting recently. I&apos;m curious about AI&apos;s growing impact on society and love keeping up with how it&apos;s reshaping the way we build software.
+          things I&apos;ve found interesting recently. I&apos;m particularly interested in AI's impact on society and the economy, and spend a lot of time reading / writing about this topic. 
         </p>
         <p className="text-gray-700 leading-relaxed mb-4">
           I also love listening to electronic music — here are some of my <a href="https://open.spotify.com/playlist/397Pe2OwOWcw23F3CBCMle?si=a61e85a4ec754bd9" className="underline hover:text-gray-900">favorite EDM songs</a> and <a href="https://open.spotify.com/playlist/33Q5JaW4rWtLWxQsUD6yvS?si=320c953915b34d28" className="underline hover:text-gray-900">favorite movie soundtracks</a>.
