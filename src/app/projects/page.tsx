@@ -2,22 +2,10 @@ import Image from "next/image";
 
 const projects = [
     {
-        title: "Project One",
-        description: "A brief description of the first project. It does something cool.",
-        link: "https://github.com",
-        icon: "/projects/project-one.svg",
-    },
-    {
-        title: "Project Two",
-        description: "Another project that solves a different problem. Built with Next.js.",
-        link: "https://github.com",
-        icon: "/projects/project-two.svg",
-    },
-    {
-        title: "Project Three",
-        description: "A third project to showcase versatility. Maybe a mobile app.",
-        link: "https://github.com",
-        icon: "/projects/project-three.svg",
+        title: "Automatic Cuepoints",
+        description: "Mac app that automatically places cue points on DJ tracks.",
+        link: "https://github.com/shiva-menta/automatic-cuepoints",
+        icon: "/automatic-cuepoints-icon.png",
     },
 ];
 
