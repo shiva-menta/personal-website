@@ -1,5 +1,9 @@
 import { getAllPostIds, getPostData } from '@/lib/posts';
 
+// Allow zero blog posts with output: 'export' (Next.js requires non-empty
+// generateStaticParams for dynamic routes; revalidate=0 bypasses that check)
+export const revalidate = 0;
+
 export async function generateStaticParams() {
     const paths = getAllPostIds();
     return paths;
