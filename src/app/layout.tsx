@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Space_Grotesk, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space-grotesk" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
 
 export const metadata: Metadata = {
@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${playfair.variable} font-sans min-h-screen flex flex-col max-w-2xl mx-auto px-4 sm:px-6 lg:px-8`}>
+      <body className={`${spaceGrotesk.variable} ${playfair.variable} font-sans min-h-screen flex flex-col max-w-2xl mx-auto px-4 sm:px-6 lg:px-8`}>
         <Navigation />
         <main className="flex-grow">
           {children}

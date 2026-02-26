@@ -3,7 +3,7 @@ import Image from "next/image";
 const projects = [
     {
         title: "Automatic Cuepoints",
-        description: "Mac app that automatically places cue points on DJ tracks.",
+        description: "Mac app that automatically places cue points on DJ tracks in Rekordbox.",
         link: "https://github.com/shiva-menta/automatic-cuepoints",
         icon: "/automatic-cuepoints-icon.png",
     },

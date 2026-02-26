@@ -22,9 +22,6 @@ export default function Blog() {
                         <p className="text-gray-500 text-sm">{date}</p>
                     </Link>
                 ))}
-                {allPostsData.length === 0 && (
-                    <p className="text-gray-500">No posts found.</p>
-                )}
             </div>
         </div>
     );
