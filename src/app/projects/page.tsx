@@ -20,7 +20,7 @@ export default function Projects() {
                         href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="group rounded-xl border border-gray-100 p-6 transition hover:shadow-md hover:-translate-y-0.5 flex flex-col"
+                        className="group rounded-xl border border-gray-100 p-6 transition hover:shadow-md hover:-translate-y-0.5 flex flex-col hover:bg-white"
                     >
                         <Image
                             src={project.icon}
