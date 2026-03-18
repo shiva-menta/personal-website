@@ -9,7 +9,7 @@ export default function Navigation() {
     const links = [
         { href: "/", label: "Home" },
         { href: "/projects", label: "Projects" },
-        { href: "/blog", label: "Writing" },
+        // { href: "/blog", label: "Writing" }, // TODO: uncomment when first article is published
     ];
 
     return (
